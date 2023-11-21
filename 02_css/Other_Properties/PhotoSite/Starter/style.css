@@ -1,0 +1,15 @@
+img {
+  width: 30%;
+  margin: calc(10% / 6);
+  box-shadow: 2px 3px 3px 0.3px olive;
+}
+
+nav {
+  font-family: "Mukta", sans-serif;
+  font-size: 1.5em;
+  margin-left: calc(10% / 6);
+  border-bottom: 2px solid black;
+  width: 30%;
+  text-transform: uppercase;
+  padding: 1.2em 0;
+}

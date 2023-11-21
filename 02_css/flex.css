@@ -1,0 +1,45 @@
+section {
+  width: 90%;
+  /* height: 500px; */
+  margin: 50px auto;
+  border: 2px solid black;
+  display: flex;
+  background-color: rgb(70, 50, 50);
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+div {
+  width: 200px;
+  height: 200px;
+  font-size: 3em;
+  font-family: "Mukta", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* flex-basis: 200%; */
+}
+
+#one {
+  background-color: #f2ffe9;
+  flex-grow: 1;
+}
+
+#two {
+  background-color: #a6cf98;
+}
+
+#three {
+  background-color: #557c55;
+}
+
+#four {
+  background-color: #a6cf98;
+}
+
+#five {
+  background-color: #f2ffe9;
+  flex-grow: 2;
+}
